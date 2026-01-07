@@ -1,0 +1,52 @@
+body{
+background-color: rgb(238, 196, 182);
+}
+h1{
+color: black;
+font-size: 48px; 
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+ p {
+color: rgb(30, 32, 34);
+  font-size: 24px; 
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal; 
+}   
+h3{
+color:black;
+font-size: 40px; 
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 100px; 
+}
+.Life_Facts_Title{
+color: rgb(30, 32, 34);
+  font-size: 35px; 
+  text-align: Left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  ul{
+ list-style-type:circle; 
+   border: 3px double black;
+  border-margin:0px;
+  border-
+  }
+
+  }
+
+
+.Life_Facts{
+  color: rgb(30, 32, 34);
+  font-size: 30px; 
+  text-align: Left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  ul{
+ list-style-type:circle; 
+ list-style-image: linear-gradient(lightyellow,lightpink);
+ border: 5px solid plum;
+  }  
+}

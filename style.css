@@ -1,0 +1,31 @@
+h1 {
+  color: black;
+  font-size: 48px; 
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+body {
+  background-color: lightyellow;
+  background-image:("Background.avif");
+}
+
+p {
+color: rgb(30, 32, 34);
+  font-size: 24px; 
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal; 
+}
+
+h3 {
+  color:black;
+  font-size: 28px; 
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100px; 
+}
+a{
+    color: goldenrod;
+    font-size: 28px;
+}
