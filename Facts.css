@@ -28,11 +28,15 @@ color: rgb(30, 32, 34);
   text-align: Left;
   font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
+  padding:10px 10px;
+  padding-right: 10px;
   ul{
  list-style-type:circle; 
    border: 3px double black;
-  border-margin:0px;
-  border-
+
+  display: inline-block;
+
+
   }
 
   }
@@ -48,5 +52,36 @@ color: rgb(30, 32, 34);
  list-style-type:circle; 
  list-style-image: linear-gradient(lightyellow,lightpink);
  border: 5px solid plum;
+  display: inline-block;
+  }  
+}
+
+.Family_Facts_Title{
+color: rgb(30, 32, 34);
+  font-size: 35px; 
+  text-align: Left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  ul{
+ list-style-type:circle; 
+   border: 3px double black;
+  border-margin:0px;
+   display: inline-block;
+  }
+
+  }
+
+
+  .Family_Facts{
+  color: rgb(30, 32, 34);
+  font-size: 30px; 
+  text-align: Left;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  ul{
+ list-style-type:circle; 
+ list-style-image: linear-gradient(lightyellow,lavender);
+ border: 8px solid thistle ;
+ display: inline-block;
   }  
 }
