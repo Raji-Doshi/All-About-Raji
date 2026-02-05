@@ -22,7 +22,7 @@ text-align: center;
 font-family: 'Times New Roman', Times, serif;
 font-weight: 100px; 
 }
-.Life_Facts_Title{
+.Hobbies_Title{
 color: rgb(30, 32, 34);
   font-size: 35px; 
   text-align: Left;
@@ -33,7 +33,6 @@ color: rgb(30, 32, 34);
   ul{
  list-style-type:circle; 
    border: 3px double black;
-
   display: inline-block;
 
 
