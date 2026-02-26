@@ -1,0 +1,64 @@
+h1 {
+  color: black;
+  font-size: 48px; 
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+body {
+  background-color: lightblue;
+  background-image:("Background.avif");
+}
+
+p {
+color: rgb(30, 32, 34);
+  font-size: 24px; 
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal; 
+}
+
+h3 {
+  color:black;
+  font-size: 28px; 
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100px; 
+}
+a{
+    color: goldenrod;
+    font-size: 28px;
+}
+
+  @keyframes image-rotate {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); 
+  }
+}
+.animated-image{
+  animation-name: image-rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.float-up-down {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  position: relative; 
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-15px); 
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
